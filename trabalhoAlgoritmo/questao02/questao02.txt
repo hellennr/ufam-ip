@@ -1,0 +1,16 @@
+int nivel
+float horaTrabalhada
+float salario
+
+leia(nivel)
+leia(horaTrabalhada)
+
+se(nivel==1)
+    salario = 12,00 * horaTrabalhada
+senao
+    se(nivel==2)
+        salario = 17,00 * horaTrabalhada
+    senao
+        salario = 25,00 * horaTrabalhada
+
+imprima(salario)

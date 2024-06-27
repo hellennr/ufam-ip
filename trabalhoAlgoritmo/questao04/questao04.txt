@@ -1,0 +1,12 @@
+int ano
+float preco,imposto
+
+leia(ano)
+leia(preco)
+
+se(ano<1990)
+    imposto = 0.01 * preco
+senao
+    imposto = 0.015 * preco
+
+imprima(imposto)

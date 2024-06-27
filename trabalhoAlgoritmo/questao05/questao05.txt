@@ -1,0 +1,19 @@
+float peso,altura
+int imc
+
+leia(peso)
+leia(altura)
+
+imc = peso/(altura * altura)
+
+se(imc < 18,5)
+    imprima(imc, "Abaixo do peso")
+senao
+    se((imc >= 18,5 ) && (imc < 25))
+        imprima(imc, "peso normal")
+    senao
+        se((imc >= 25) && (imc < 30))
+            imprima(imc, "acima do peso")
+        senao
+            imprima(imc, "obesidade")
+

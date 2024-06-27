@@ -1,0 +1,41 @@
+Pessoa():
+    string nome
+    int idade
+    float altura,peso
+
+    lerNome():
+        retorne esse.nome
+
+    definirNome(nome):
+        esse.nome = nome
+
+    lerIdade():
+        retorne esse.idade
+
+    definirIdade(idade):
+        esse.idade = idade
+
+    lerAltura():
+        retorne esse.altura
+
+    definirAltura(altura):
+        esse.altura = altura
+
+    lerPeso():
+        retorne esse.peso
+
+    definirPeso(peso):
+        esse.peso = peso
+
+    pessoa():
+        esse.nome = ""
+        esse.idade = 0
+        esse.altura = 0.0
+        esse.peso = 0.0
+
+    imprimePessoa():
+        imprima(lerNome,lerIdade,lerAltura,lerPeso)
+
+    fezAniversario():
+        definirIdade(lerIdade + 1)
+

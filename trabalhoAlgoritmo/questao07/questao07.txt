@@ -1,0 +1,40 @@
+Funcionario:
+
+String nome,departamento
+float salario
+Data data
+
+Funcionario():
+nome = ""
+departamento = ""
+salario = 0.0
+data = 01/01/1900
+
+getNome():
+    retorne esse.nome
+setNome(nome):
+    esse.nome = nome
+
+getDepartamento():
+    retorne esse.departamento
+setDepartamento(departamento):
+    esse.departamento = departamento
+
+getSalario():
+    retorne esse.salario
+setSalario(salario):
+    esse.salario = salario
+
+getData():
+    retorne esse.data
+setData(data):
+    esse.data = data
+
+bonifica(float bonus):
+    setSalario(getSalario + bonus)
+
+ganhoAnual():
+    retorne getSalario * 12
+
+imprimeFuncionario():
+    imprima(getNome,getDepartamento,getSalario)

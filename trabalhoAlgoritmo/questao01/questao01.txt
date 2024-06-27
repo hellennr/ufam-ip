@@ -1,0 +1,12 @@
+int num
+leia(num)
+
+// duvida: coloco 0 como par? ou crio um caso so pro zero?
+
+se(num>=0)
+    se(num % 2 == 0)
+        imprima(ele eh par)
+    senao
+        imprima(ele eh impar)
+senao
+    imprima(Este numero nao eh positivo)
