@@ -1,0 +1,125 @@
+
+
+	🧮 Matrizes de ordem 3
+
+		Rodada 1
+Determinante sem otim.	-104
+Tempo sem otim.		0.040 ms
+Determinante com otim.	-104
+Tempo com otim.		0.017 ms
+
+		Rodada 2
+Determinante sem otim.	-220
+Tempo sem otim.		0.012 ms
+Determinante com otim.	-220
+Tempo com otim.		0.014 ms
+
+		Rodada 3
+Determinante sem otim.	-88
+Tempo sem otim.		0.012 ms
+Determinante com otim.	-88
+Tempo com otim.		0.109 ms
+
+Tempo médio sem otimização: 	21192 ns
+Tempo médio com otimização: 	46733 ns
+Ganhos da otimização: 		-25541 ns
+
+
+	🧮 Matrizes de ordem 5
+
+		Rodada 1
+Determinante sem otim.	49019
+Tempo sem otim.		0.365 ms
+Determinante com otim.	49019
+Tempo com otim.		0.315 ms
+
+		Rodada 2
+Determinante sem otim.	-237358
+Tempo sem otim.		0.218 ms
+Determinante com otim.	-237358
+Tempo com otim.		0.189 ms
+
+		Rodada 3
+Determinante sem otim.	-3513
+Tempo sem otim.		0.180 ms
+Determinante com otim.	-3513
+Tempo com otim.		0.115 ms
+
+Tempo médio sem otimização: 	254047 ns
+Tempo médio com otimização: 	206321 ns
+Ganhos da otimização: 		47726 ns
+
+
+	🧮 Matrizes de ordem 7
+
+		Rodada 1
+Determinante sem otim.	1093807254
+Tempo sem otim.		1.600 ms
+Determinante com otim.	1093807254
+Tempo com otim.		1.088 ms
+
+		Rodada 2
+Determinante sem otim.	-453970367
+Tempo sem otim.		0.957 ms
+Determinante com otim.	-453970367
+Tempo com otim.		0.867 ms
+
+		Rodada 3
+Determinante sem otim.	-1031430231
+Tempo sem otim.		0.810 ms
+Determinante com otim.	-1031430231
+Tempo com otim.		0.767 ms
+
+Tempo médio sem otimização: 	1121963 ns
+Tempo médio com otimização: 	907186 ns
+Ganhos da otimização: 		214777 ns
+
+
+	🧮 Matrizes de ordem 9
+
+		Rodada 1
+Determinante sem otim.	-1792765544
+Tempo sem otim.		58.476 ms
+Determinante com otim.	-1792765544
+Tempo com otim.		46.713 ms
+
+		Rodada 2
+Determinante sem otim.	-952737623
+Tempo sem otim.		48.055 ms
+Determinante com otim.	-952737623
+Tempo com otim.		50.697 ms
+
+		Rodada 3
+Determinante sem otim.	-823267680
+Tempo sem otim.		44.475 ms
+Determinante com otim.	-823267680
+Tempo com otim.		41.647 ms
+
+Tempo médio sem otimização: 	50335068 ns
+Tempo médio com otimização: 	46352383 ns
+Ganhos da otimização: 		3982685 ns
+
+
+	🧮 Matrizes de ordem 11
+
+		Rodada 1
+Determinante sem otim.	-1763805631
+Tempo sem otim.		4820.012 ms
+Determinante com otim.	-1763805631
+Tempo com otim.		4491.371 ms
+
+		Rodada 2
+Determinante sem otim.	-339472231
+Tempo sem otim.		4726.685 ms
+Determinante com otim.	-339472231
+Tempo com otim.		4814.243 ms
+
+		Rodada 3
+Determinante sem otim.	-1615836598
+Tempo sem otim.		4711.641 ms
+Determinante com otim.	-1615836598
+Tempo com otim.		4416.102 ms
+
+Tempo médio sem otimização: 	4752779386 ns
+Tempo médio com otimização: 	4573905218 ns
+Ganhos da otimização: 		178874168 ns

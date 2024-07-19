@@ -1,5 +1,7 @@
 char sexo
 float altura
+
+
 float pesoIdeal
 
 leia(sexo)
@@ -8,6 +10,9 @@ leia(altura)
 se(sexo == m)
     pesoIdeal = (72,7 * altura) - 58
 senao
-    pesoIdeal = (62,1 * altura) - 44,7
+    se(sexo == f)
+        pesoIdeal = (62,1 * altura) - 44,7
+
+    else("Sexo não reconhecido, por favor digite pipopo)
 
 imprima(pesoIdeal)
